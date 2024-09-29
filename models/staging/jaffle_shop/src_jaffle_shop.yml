@@ -23,11 +23,11 @@ sources:
             data_tests:
               - unique
               - not_null
-              
+
       - name: orders
         description: raw orders data
         columns:
           - name: id
             data_tests:
               - unique
-              - not_null      
+              - not_null
